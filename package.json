@@ -26,14 +26,14 @@
     ],
     "author": {
       "name": "Martin Černý",
-      "url": "https://github.com/tvoje-username"
+      "url": "https://github.com/martincerny0"
     },
     "license": "MIT",
     "repository": {
       "type": "git",
-      "url": "https://github.com/tvoje-username/env2example.git"
+      "url": "https://github.com/martincerny0/env2example.git"
     },
-    "homepage": "https://github.com/tvoje-username/env2example#readme",
+    "homepage": "https://github.com/martincerny0/env2example#readme",
     "scripts": {
       "start": "node ./bin/index.js",
       "test": "echo \"No tests defined\""
