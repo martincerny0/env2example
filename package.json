@@ -1,0 +1,45 @@
+{
+    "name": "env2example",
+    "version": "1.0.0",
+    "description": "Generate .env.example from a .env file automatically.",
+    "bin": {
+      "env2example": "./bin/index.js",
+      "envex": "./bin/index.js"
+    },
+    "type": "module",
+    "main": "./src/generate.js",
+    "files": [
+      "bin",
+      "src"
+    ],
+    "keywords": [
+      "env",
+      "dotenv",
+      "example",
+      "env2example",
+      "envex",
+      "cli",
+      "tool",
+      "environment",
+      "variables",
+      "node"
+    ],
+    "author": {
+      "name": "Martin Černý",
+      "url": "https://github.com/tvoje-username"
+    },
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/tvoje-username/env2example.git"
+    },
+    "homepage": "https://github.com/tvoje-username/env2example#readme",
+    "scripts": {
+      "start": "node ./bin/index.js",
+      "test": "echo \"No tests defined\""
+    },
+    "dependencies": {
+      "chalk": "^5.4.1"
+    }
+  }
+  
